@@ -29,6 +29,11 @@ def pandas_sugar():
     df = pd.read_csv("https://raw.githubusercontent.com/noahgift/sugar/master/data/education_sugar_cdc_2003.csv")
     return jsonify(df.to_dict())
 
+@app.route('/bob')
+def bob():
+    val = {"value":"bob"}
+    return jsonify(val)
+
 @app.route('/wikipedia/<company>')
 def wikipedia_route(company):
 
