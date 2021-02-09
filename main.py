@@ -39,7 +39,7 @@ poll_data = {
    'question' : 'What is your favorite color?',
    'fields'   : ['Red', 'Blue', 'Orange', 'Green', 'Purple']
 }
-filename = 'data.txt'
+filename = '/tmp/data.txt'
 
 @app.route('/poll')
 def poll():
