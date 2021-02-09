@@ -38,7 +38,7 @@ gcloud app create
 python main.py
 ```
 
-6.1 Or you can deploy the application on the cloud
+7. Or you can deploy the application on the cloud
 ```
 gcloud app deploy
 ```
