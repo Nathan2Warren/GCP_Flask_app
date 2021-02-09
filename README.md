@@ -45,4 +45,5 @@ gcloud app deploy
 
 ## References
 [Noah Gift's GCP and Flask Tutorials](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md)
+<br></br>
 [Code Maven Flask Poll Tutorial](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md)
