@@ -55,7 +55,7 @@ def show_results():
     for f in poll_data['fields']:
         votes[f] = 0
 
-    f  = open(filename, 'r')
+    f  = open(filename, 'wb')
     for line in f:
         vote = line.rstrip("\n")
         votes[vote] += 1
