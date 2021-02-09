@@ -2,6 +2,8 @@
 This repo hosts a Flask application that has been deployed with continuous integration and delivery. This allows the application to be updated whenever code is pushed to this repository. This survey app simply asks users their favorite color and records answers from users.
 The app can currently be accessed at: https://project1helloml.uc.r.appspot.com/
 
+[!Image1](./ex1.png)
+
 ## Instructions 
 
 1. In order to run the application, first create a new project in Google Cloud and ensure you are working in said project. If you are not, run the following:
