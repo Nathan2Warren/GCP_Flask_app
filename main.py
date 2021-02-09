@@ -44,8 +44,8 @@ filename = '/tmp/data.txt'
 @app.route('/poll')
 def poll():
     vote = request.args.get('field')
-    save = open(filename, 'wb')
-    save.write(vote + '\n' )
+    save = open(filename, 'a')
+    save.write(vote + '\n')
     save.close()
     return render_template('thankyou.html', data=poll_data)
 
@@ -55,7 +55,7 @@ def show_results():
     for f in poll_data['fields']:
         votes[f] = 0
 
-    f  = open(filename, 'wb')
+    f  = open(filename, 'r')
     for line in f:
         vote = line.rstrip("\n")
         votes[vote] += 1
