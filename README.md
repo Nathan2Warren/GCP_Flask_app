@@ -1,6 +1,6 @@
 # Google Cloud Survey Flask Application
 This repo hosts a Flask application that has been deployed with continuous integration and delivery. This allows the application to be updated whenever code is pushed to this repository. This survey app simply asks users their favorite color and records answers from users.
-The app can currently be accessed at: (https://project1helloml.uc.r.appspot.com/).
+The app can currently be accessed at: https://project1helloml.uc.r.appspot.com/
 
 ## Instructions 
 
@@ -44,5 +44,5 @@ gcloud app deploy
 ```
 
 ## References
-(Noah Gift's GCP and Flask Tutorials)[https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md]
-(Code Maven Flask Poll Tutorial)[https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md]
+[Noah Gift's GCP and Flask Tutorials](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md)
+[Code Maven Flask Poll Tutorial](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/topics/paas-continuous-delivery.md)
