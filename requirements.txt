@@ -1,1 +1,7 @@
 Flask==1.1.2
+Pandas
+pylint
+pytest
+wikipedia
+google-cloud-language
+requests
